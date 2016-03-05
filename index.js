@@ -3,12 +3,11 @@
  * @copyright 2015 Titus Wormer
  * @license MIT
  * @module retext:equality
- * @fileoverview Warn about possible insensitive,
- *   inconsiderate language with Retext.
+ * @fileoverview Warn about incorrect English usage with retext
  */
 
 'use strict';
 
 /* eslint-env commonjs */
 
-module.exports = require('./lib/equality.js');
+module.exports = require('./lib/usage.js');

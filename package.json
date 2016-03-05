@@ -1,24 +1,9 @@
 {
-  "name": "retext-equality",
-  "version": "2.2.1",
-  "description": "Warn about possible insensitive, inconsiderate language with Retext",
+  "name": "retext-usage",
+  "version": "0.1.0",
+  "description": "Warn about incorrect English usage with retext",
   "license": "MIT",
-  "keywords": [
-    "equal",
-    "race",
-    "religion",
-    "sex",
-    "orientation",
-    "identity",
-    "gender",
-    "sensitive",
-    "insensitive",
-    "neutral",
-    "writing",
-    "language",
-    "english",
-    "retext"
-  ],
+  "private": true,
   "dependencies": {
     "array-differ": "^1.0.0",
     "array-intersection": "^0.1.2",
@@ -35,9 +20,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wooorm/retext-equality.git"
+    "url": "https://github.com/admhlt/retext-usage.git"
   },
-  "bugs": "https://github.com/wooorm/retext-equality/issues",
+  "bugs": "https://github.com/admhlt/retext-usage/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "devDependencies": {
     "array-duplicated": "^1.0.1",

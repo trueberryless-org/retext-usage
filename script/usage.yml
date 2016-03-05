@@ -1,0 +1,28 @@
+- type: simple
+  source: http://public.wsu.edu/~brians/errors/errors.html
+  incorrect: absorbtion
+  correct: absorption
+- type: simple
+  incorrect: accidently
+  correct: accidentally
+- type: simple
+  incorrect: acrossed
+  correct: across
+- type: simple
+  incorrect: A.D.
+  correct: C.E.
+- type: simple
+  incorrect: addicting
+  correct: addictive
+- type: simple
+  incorrect: administrate
+  correct: administer
+- type: simple
+  incorrect: ad nauseum
+  correct: ad nauseeam
+- type: simple
+  incorrect: all of the sudden
+  correct: all of a sudden
+- type: simple
+  incorrect: B.C.
+  correct: B.C.E.

@@ -2,7 +2,7 @@
  * @author Titus Wormer
  * @copyright 2014-2015 Titus Wormer
  * @license MIT
- * @module retext:equality:extract
+ * @module retext:usage:extract
  * @fileoverview Extract and compile database into JSON.
  */
 
@@ -35,14 +35,14 @@ var stringify = JSON.stringify;
  * @return {string} - Pattern identifier.
  */
 function getPatternId(pattern) {
-    var inconsiderate = pattern.inconsiderate;
+    var incorrect = pattern.incorrect;
     var phrases = {};
     var result = [];
     var phrase;
     var category;
 
-    for (phrase in inconsiderate) {
-        category = inconsiderate[phrase];
+    for (phrase in incorrect) {
+        category = incorrect[phrase];
 
         if (!phrases[category] || phrases[category].length > phrase.length) {
             phrases[category] = phrase;
@@ -69,8 +69,8 @@ function patch(entry) {
         'type': entry.type,
         'apostrophe': entry.apostrophe ? true : undefined,
         'categories': entry.categories,
-        'considerate': entry.considerate,
-        'inconsiderate': entry.inconsiderate
+        'correct': entry.correct,
+        'incorrect': entry.incorrect
     };
 
     if (source) {
@@ -92,11 +92,7 @@ function patch(entry) {
  */
 
 var data = [
-    'gender',
-    'ablist',
-    'relationships',
-    'lgbtq',
-    'suicide'
+    'usage'
 ].map(function (name) {
     return yaml.load(read(join(__dirname, name + '.yml'), 'utf8'));
 });
@@ -131,10 +127,10 @@ function clean(value) {
 }
 
 data.forEach(function (entry) {
-    entry.inconsiderate = clean(entry.inconsiderate);
-    entry.considerate = clean(entry.considerate);
-    entry.categories = Object.keys(entry.inconsiderate).map(function (key) {
-        return entry.inconsiderate[key];
+    entry.incorrect = clean(entry.incorrect);
+    entry.correct = clean(entry.correct);
+    entry.categories = Object.keys(entry.incorrect).map(function (key) {
+        return entry.incorrect[key];
     }).filter(function (value, index, parent) {
         return parent.indexOf(value, index + 1) === -1;
     });
@@ -152,30 +148,30 @@ data.forEach(function (entry) {
     if (entry.type !== 'simple' && entry.categories.length < 2) {
         throw new Error(
             'Use `type: simple` for single entries with one category: ' +
-            Object.keys(entry.inconsiderate).join(', ')
+            Object.keys(entry.incorrect).join(', ')
         );
     }
 
-    if (entry.inconsiderate) {
-        Object.keys(entry.inconsiderate).forEach(function (inconsiderate) {
-            phrases.push(inconsiderate);
+    if (entry.incorrect) {
+        Object.keys(entry.incorrect).forEach(function (incorrect) {
+            phrases.push(incorrect);
 
-            if (/-/.test(inconsiderate)) {
+            if (/-/.test(incorrect)) {
                 throw new Error(
-                    'Refrain from using dashes inside inconsiderate ' +
+                    'Refrain from using dashes inside incorrect ' +
                     'terms: they’ll be stripped when looking for ' +
                     'words: ' +
-                    Object.keys(entry.inconsiderate).join(', ')
+                    Object.keys(entry.incorrect).join(', ')
                 );
             }
 
-            if (/['’]/.test(inconsiderate) && !entry.apostrophe) {
+            if (/['’]/.test(incorrect) && !entry.apostrophe) {
                 throw new Error(
                     'Refrain from using apostrophes inside ' +
-                    'inconsiderate terms, they’ll be stripped ' +
+                    'incorrect terms, they’ll be stripped ' +
                     'when looking for words (or use `apostrophe: ' +
                     'true`): ' +
-                    Object.keys(entry.inconsiderate).join(', ')
+                    Object.keys(entry.incorrect).join(', ')
                 );
             }
         });
