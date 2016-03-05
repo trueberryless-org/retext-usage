@@ -19,10 +19,50 @@
   correct: administer
 - type: simple
   incorrect: ad nauseum
-  correct: ad nauseeam
+  correct: ad nauseam
+- type: simple
+  incorrect: advanced notice
+  correct: advance notice
+- type: simple
+  incorrect: advocate for
+  correct:
+    - advocate
+    - campaign for
+- type: simple
+  incorrect: afterall
+  correct: after all
+- type: simple
+  incorrect: ahold
+  correct: hold
+- type: simple
+  incorrect: all and all
+  correct: all in all
+- type: simple
+  incorrect: all be it
+  correct: albeit
+- type: simple
+  incorrect: all for not
+  correct: all for naught
 - type: simple
   incorrect: all of the sudden
   correct: all of a sudden
+- type: simple
+  incorrect: alterior
+  correct: ulterior
+- type: simple
+  incorrect: amature
+  correct: amateur
+- type: simple
+  incorrect: ampitheater
+  correct: amphitheater
+- type: simple
+  incorrect: and also
+  correct:
+    - and
+    - also
+- type: simple
+  incorrect: another words
+  correct: in other words
 - type: simple
   incorrect: B.C.
   correct: B.C.E.
