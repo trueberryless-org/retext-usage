@@ -2,7 +2,7 @@
  * @author Titus Wormer
  * @copyright 2015 Titus Wormer
  * @license MIT
- * @module retext:equality
+ * @module retext:usage
  * @fileoverview Warn about incorrect English usage with retext
  */
 
