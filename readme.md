@@ -1,30 +1,19 @@
-# retext-equality [![Build Status][travis-badge]][travis] [![Coverage Status][coverage-badge]][coverage]
+# retext-usage
 
-Warn about possible insensitive, inconsiderate language with
+Warn about incorrect English usage with
 [**retext**][retext].
-
-## Installation
-
-[npm][npm-install]:
-
-```bash
-npm install retext-equality
-```
-
-**retext-equality** is also available for [duo][], and as an AMD, CommonJS,
-and globals module, [uncompressed and compressed][releases].
 
 ## Usage
 
 ```js
 var retext = require('retext');
 var report = require('vfile-reporter');
-var equality = require('retext-equality');
+var usage = require('retext-usage');
 
 retext()
-    .use(equality)
+    .use(usage)
     .process([
-        'His network was set up with a master and slave.'
+        'He tried, but it was all for not.'
     ].join('\n'), function (err, file) {
         console.log(report(file));
     });
@@ -39,27 +28,6 @@ Yields:
 
 ⚠ 2 warnings
 ```
-
-## API
-
-### `retext.use(equality[, options])`
-
-Adds warnings for possible insensitive, inconsiderate language to the
-processed [virtual file][vfile]s.
-
-**Parameters**
-
-*   `equality` — This plug-in;
-
-*   `options` (`Object?`, optional):
-
-    *   `ignore` (`Array.<string>`)
-        — List of phrases to _not_ warn about;
-
-    *   `noBinary` (`boolean`, default: `false`)
-        — Do not allow binary references. By default `he` is warned
-        about unless it’s followed by something like `or she` or `and she`.
-        When `noBinary` is `true`, both cases would be warned about.
 
 ## License
 
