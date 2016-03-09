@@ -1,0 +1,281 @@
+{
+  "absorbtion": {
+    "replace": [
+      "absorption"
+    ]
+  },
+  "accidently": {
+    "replace": [
+      "accidentally"
+    ]
+  },
+  "acrossed": {
+    "replace": [
+      "across"
+    ]
+  },
+  "addicting": {
+    "replace": [
+      "addictive"
+    ]
+  },
+  "administrate": {
+    "replace": [
+      "administer"
+    ]
+  },
+  "ad nauseum": {
+    "replace": [
+      "ad nauseam"
+    ]
+  },
+  "advanced notice": {
+    "replace": [
+      "advance notice"
+    ]
+  },
+  "advocate for": {
+    "replace": [
+      "advocate",
+      "campaign for"
+    ]
+  },
+  "afterall": {
+    "replace": [
+      "after all"
+    ]
+  },
+  "ahold": {
+    "replace": [
+      "hold"
+    ]
+  },
+  "all and all": {
+    "replace": [
+      "all in all"
+    ]
+  },
+  "all be it": {
+    "replace": [
+      "albeit"
+    ]
+  },
+  "all for not": {
+    "replace": [
+      "all for naught"
+    ]
+  },
+  "all of the sudden": {
+    "replace": [
+      "all of a sudden"
+    ]
+  },
+  "alterior": {
+    "replace": [
+      "ulterior"
+    ]
+  },
+  "amature": {
+    "replace": [
+      "amateur"
+    ]
+  },
+  "ampitheater": {
+    "replace": [
+      "amphitheater"
+    ]
+  },
+  "and also": {
+    "replace": [
+      "and",
+      "also"
+    ]
+  },
+  "another words": {
+    "replace": [
+      "in other words"
+    ]
+  },
+  "any other number of": {
+    "replace": [
+      "any number of other"
+    ]
+  },
+  "anytime": {
+    "replace": [
+      "any time"
+    ]
+  },
+  "anyways": {
+    "replace": [
+      "anyway"
+    ]
+  },
+  "any where": {
+    "replace": [
+      "anywhere"
+    ]
+  },
+  "anywheres": {
+    "replace": [
+      "anywhere"
+    ]
+  },
+  "appauled": {
+    "replace": [
+      "appalled"
+    ]
+  },
+  "architected": {
+    "replace": [
+      "designed",
+      "built"
+    ]
+  },
+  "arthuritis": {
+    "replace": [
+      "arthritis"
+    ]
+  },
+  "artic": {
+    "replace": [
+      "arctic"
+    ]
+  },
+  "as best as": {
+    "replace": [
+      "as best"
+    ]
+  },
+  "as follow": {
+    "replace": [
+      "as follows"
+    ]
+  },
+  "as less as possible": {
+    "replace": [
+      "as little as possible"
+    ]
+  },
+  "as of yet": {
+    "replace": [
+      "yet"
+    ]
+  },
+  "as per": {
+    "omit": true,
+    "replace": [
+      "in accordance with"
+    ]
+  },
+  "ascared": {
+    "replace": [
+      "scared"
+    ]
+  },
+  "asterick": {
+    "replace": [
+      "asterisk"
+    ]
+  },
+  "aswell": {
+    "replace": [
+      "as well"
+    ]
+  },
+  "ATM machine": {
+    "replace": [
+      "ATM"
+    ]
+  },
+  "athiest": {
+    "replace": [
+      "atheist"
+    ]
+  },
+  "avaidable": {
+    "replace": [
+      "avoidable"
+    ]
+  },
+  "awe, shucks": {
+    "replace": [
+      "aw, shucks"
+    ]
+  },
+  "baited breath": {
+    "replace": [
+      "bated breath"
+    ]
+  },
+  "baldfaced": {
+    "replace": [
+      "barefaced"
+    ]
+  },
+  "boldfaced": {
+    "replace": [
+      "barefaced"
+    ]
+  },
+  "barb wire": {
+    "replace": [
+      "barbed wire"
+    ]
+  },
+  "barbwire": {
+    "replace": [
+      "barbed wire"
+    ]
+  },
+  "bob wire": {
+    "replace": [
+      "barbed wire"
+    ]
+  },
+  "bobwire": {
+    "replace": [
+      "barbed wire"
+    ]
+  },
+  "BAR-B-Q": {
+    "replace": [
+      "barbecue"
+    ]
+  },
+  "barbeque": {
+    "replace": [
+      "barbecue"
+    ]
+  },
+  "based around": {
+    "replace": [
+      "based on"
+    ]
+  },
+  "based off": {
+    "replace": [
+      "based on"
+    ]
+  },
+  "based off of": {
+    "replace": [
+      "based on"
+    ]
+  },
+  "basicly": {
+    "replace": [
+      "basically"
+    ]
+  },
+  "time progressed": {
+    "replace": [
+      "time passed"
+    ]
+  },
+  "time progresses": {
+    "replace": [
+      "time passes"
+    ]
+  }
+}
