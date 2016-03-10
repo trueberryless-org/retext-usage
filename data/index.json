@@ -268,6 +268,349 @@
       "basically"
     ]
   },
+  "basises": {
+    "replace": [
+      "bases"
+    ]
+  },
+  "beaurocracy": {
+    "replace": [
+      "beauraucracy"
+    ]
+  },
+  "beckon call": {
+    "replace": [
+      "beck and call"
+    ]
+  },
+  "between you and I": {
+    "replace": [
+      "between you and me"
+    ]
+  },
+  "beyond the pail": {
+    "replace": [
+      "beyond the pale"
+    ]
+  },
+  "bicep": {
+    "replace": [
+      "biceps"
+    ]
+  },
+  "blindsighted": {
+    "replace": [
+      "blindsided"
+    ]
+  },
+  "boast your confidence": {
+    "replace": [
+      "bolster your confidence"
+    ]
+  },
+  "bon a petite": {
+    "replace": [
+      "bon appétit"
+    ]
+  },
+  "bonafied": {
+    "replace": [
+      "bona fide"
+    ]
+  },
+  "boost in the arm": {
+    "replace": [
+      "shot in the arm"
+    ]
+  },
+  "bored of": {
+    "replace": [
+      "bored with"
+    ]
+  },
+  "born out of": {
+    "replace": [
+      "born of"
+    ]
+  },
+  "boughten": {
+    "replace": [
+      "bought"
+    ]
+  },
+  "bouyant": {
+    "replace": [
+      "buoyant"
+    ]
+  },
+  "brang": {
+    "replace": [
+      "brought"
+    ]
+  },
+  "brung": {
+    "replace": [
+      "brought"
+    ]
+  },
+  "brussel sprout": {
+    "replace": [
+      "Brussels sprout"
+    ]
+  },
+  "build off": {
+    "replace": [
+      "build on"
+    ]
+  },
+  "build off of": {
+    "replace": [
+      "build on"
+    ]
+  },
+  "butt naked": {
+    "replace": [
+      "buck naked"
+    ]
+  },
+  "buttload": {
+    "replace": [
+      "boatload"
+    ]
+  },
+  "buttox": {
+    "replace": [
+      "buttocks"
+    ]
+  },
+  "by far and away": {
+    "replace": [
+      "by far",
+      "by far, far and away"
+    ]
+  },
+  "caddy corner": {
+    "replace": [
+      "cater-corner",
+      "catty-corner",
+      "kitty-corner"
+    ]
+  },
+  "calm, cool, and collective": {
+    "replace": [
+      "calm, cool, and collected"
+    ]
+  },
+  "capeesh": {
+    "replace": [
+      "capisce"
+    ]
+  },
+  "catched": {
+    "replace": [
+      "caught"
+    ]
+  },
+  "Caucasian": {
+    "replace": [
+      "white"
+    ]
+  },
+  "CD-ROM disk": {
+    "replace": [
+      "CD-ROM"
+    ]
+  },
+  "Ceasar": {
+    "replace": [
+      "Caesar"
+    ]
+  },
+  "cease the day": {
+    "replace": [
+      "sieze the day"
+    ]
+  },
+  "center around": {
+    "replace": [
+      "center on",
+      "revolve around"
+    ]
+  },
+  "centered around": {
+    "replace": [
+      "centered on",
+      "revolved around"
+    ]
+  },
+  "centers around": {
+    "replace": [
+      "centers on",
+      "revolves around"
+    ]
+  },
+  "center of attraction": {
+    "replace": [
+      "center of attention"
+    ]
+  },
+  "chai tea": {
+    "replace": [
+      "chai"
+    ]
+  },
+  "chalk-full": {
+    "replace": [
+      "chock-full",
+      "chuck-full"
+    ]
+  },
+  "chock it up": {
+    "replace": [
+      "chalk it up"
+    ]
+  },
+  "chrispy": {
+    "replace": [
+      "crispy"
+    ]
+  },
+  "closed-lipped": {
+    "replace": [
+      "close-lipped"
+    ]
+  },
+  "closed-minded": {
+    "replace": [
+      "close-minded"
+    ]
+  },
+  "closed-mouthed": {
+    "replace": [
+      "close-mouthed"
+    ]
+  },
+  "coat strings": {
+    "replace": [
+      "coat tails",
+      "apron strings"
+    ]
+  },
+  "coffee clutch": {
+    "replace": [
+      "coffee klatsch",
+      "coffee klatch"
+    ]
+  },
+  "cold slaw": {
+    "replace": [
+      "cole slaw"
+    ]
+  },
+  "compare and contrast": {
+    "replace": [
+      "compare"
+    ]
+  },
+  "comprised of": {
+    "replace": [
+      "composed of"
+    ]
+  },
+  "concensus": {
+    "replace": [
+      "consensus"
+    ]
+  },
+  "Confusionism": {
+    "replace": [
+      "Confucianism"
+    ]
+  },
+  "congradulations": {
+    "replace": [
+      "congratulations"
+    ]
+  },
+  "conservativism": {
+    "replace": [
+      "conservatism"
+    ]
+  },
+  "conversate": {
+    "replace": [
+      "converse"
+    ]
+  },
+  "copywrite": {
+    "replace": [
+      "copyright"
+    ]
+  },
+  "coronate": {
+    "replace": [
+      "crown"
+    ]
+  },
+  "could care less": {
+    "replace": [
+      "couldn't care less",
+      "could not care less"
+    ]
+  },
+  "could give a damn": {
+    "replace": [
+      "couldn't give a damn",
+      "could not give a damn"
+    ]
+  },
+  "could of": {
+    "replace": [
+      "could've",
+      "could have"
+    ]
+  },
+  "should of": {
+    "replace": [
+      "should've",
+      "should have"
+    ]
+  },
+  "cowtow": {
+    "replace": [
+      "kowtow"
+    ]
+  },
+  "Cracker Jacks": {
+    "replace": [
+      "Cracker Jack"
+    ]
+  },
+  "crucifiction": {
+    "replace": [
+      "crucifixion"
+    ]
+  },
+  "curve my appetite": {
+    "replace": [
+      "curb my appetite"
+    ]
+  },
+  "curve your appetite": {
+    "replace": [
+      "curb your appetite"
+    ]
+  },
+  "cut and dry": {
+    "replace": [
+      "cut and dried"
+    ]
+  },
+  "cut of tea": {
+    "replace": [
+      "cup of tea"
+    ]
+  },
   "time progressed": {
     "replace": [
       "time passed"
@@ -276,6 +619,12 @@
   "time progresses": {
     "replace": [
       "time passes"
+    ]
+  },
+  "would of": {
+    "replace": [
+      "would've",
+      "would have"
     ]
   }
 }
