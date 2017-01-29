@@ -855,8 +855,218 @@
   "koala bear": {
     "replace": "koala"
   },
+  "LCD display": {
+    "replace": [
+      "LCD",
+      "LCD screen"
+    ]
+  },
+  "land lover": {
+    "replace": "landlubber"
+  },
+  "laundrymat": {
+    "replace": "laundromat"
+  },
+  "laundry mat": {
+    "replace": "laundromat"
+  },
+  "laxadaisical": {
+    "replace": "lackadaisical"
+  },
+  "lense": {
+    "replace": "lens"
+  },
+  "less painless": {
+    "replace": [
+      "less painful",
+      "more painless"
+    ]
+  },
+  "libary": {
+    "replace": "library"
+  },
+  "like for": {
+    "replace": "like"
+  },
+  "likker": {
+    "replace": "liquor"
+  },
+  "lip-sing": {
+    "replace": [
+      "lip-sync",
+      "lip-synch"
+    ]
+  },
+  "lip-singing": {
+    "replace": [
+      "lip-syncing",
+      "lip-synching"
+    ]
+  },
+  "little own": {
+    "replace": "let alone"
+  },
+  "little to no": {
+    "replace": "little or no"
+  },
+  "little to none": {
+    "replace": "little or none"
+  },
+  "logon": {
+    "replace": [
+      "visit",
+      "log on"
+    ]
+  },
+  "lozenger": {
+    "replace": "lozenge"
+  },
+  "maddening crowd": {
+    "replace": "madding crowd"
+  },
+  "majorly": {
+    "replace": "extremely"
+  },
+  "make due": {
+    "replace": "make do"
+  },
+  "make pretend": {
+    "replace": "make believe"
+  },
+  "marinate on": {
+    "replace": [
+      "ruminate on",
+      "meditate on"
+    ]
+  },
+  "marshall": {
+    "replace": "marshal"
+  },
+  "marshmellow": {
+    "replace": "marshmallow"
+  },
+  "mass quantities": {
+    "replace": "massive quantities"
+  },
+  "mean for": {
+    "replace": "mean"
+  },
+  "Medieval Ages": {
+    "replace": "Middle Ages"
+  },
+  "meet up": {
+    "replace": "meet"
+  },
+  "memorium": {
+    "replace": "memoriam"
+  },
+  "middleaged": {
+    "replace": "middle-aged"
+  },
+  "midrift": {
+    "replace": "midriff"
+  },
+  "might could": {
+    "replace": [
+      "might",
+      "could"
+    ]
+  },
+  "might has well": {
+    "replace": "might as well"
+  },
+  "might ought": {
+    "replace": [
+      "might",
+      "ought"
+    ]
+  },
+  "mind of information": {
+    "replace": "mine of information"
+  },
+  "minuscule": {
+    "replace": "minuscule"
+  },
+  "minus well": {
+    "replace": "might as well"
+  },
+  "mischievious": {
+    "replace": "mischievous"
+  },
+  "mispell": {
+    "replace": "misspell"
+  },
+  "mispelled": {
+    "replace": "misspelled"
+  },
+  "mispelling": {
+    "replace": "misspelling"
+  },
+  "mixed-up media": {
+    "replace": "mixed media"
+  },
+  "money is no option": {
+    "replace": "money is no object"
+  },
+  "Mongoloid": {
+    "omit": true
+  },
+  "mono e mono": {
+    "replace": "mano a mano"
+  },
+  "more importantly": {
+    "replace": "more important"
+  },
+  "most importantly": {
+    "replace": "most important"
+  },
+  "moreso": {
+    "replace": [
+      "more",
+      "more so"
+    ]
+  },
   "Moslem": {
     "replace": "Muslim"
+  },
+  "most always": {
+    "replace": "almost always"
+  },
+  "motherload": {
+    "replace": "mother lode"
+  },
+  "Mount Fujiyama": {
+    "replace": [
+      "Fujiyama",
+      "Mount Fuji"
+    ]
+  },
+  "much differently": {
+    "replace": "very differently"
+  },
+  "muchly": {
+    "replace": "much"
+  },
+  "mumble jumbo": {
+    "replace": [
+      "mumble jumble",
+      "mumbo jumbo"
+    ]
+  },
+  "mumbo jumble": {
+    "replace": [
+      "mumbo jumbo",
+      "mumble jumble"
+    ]
+  },
+  "must of": {
+    "replace": "must have"
+  },
+  "mute point": {
+    "replace": "moot point"
+  },
+  "myriad of": {
+    "replace": "myriad"
   },
   "she don't": {
     "replace": "she doesn't"
