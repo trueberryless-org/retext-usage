@@ -1,6 +1,6 @@
 {
-  "name": "retext-usage",
-  "version": "0.5.0",
+  "name": "@trueberryless-org/retext-usage",
+  "version": "0.1.1",
   "description": "Check for incorrect English usage",
   "license": "MIT",
   "keywords": [
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/admhlt/retext-usage.git"
+    "url": "https://github.com/trueberryless-org/retext-usage.git"
   },
   "bugs": "https://github.com/admhlt/retext-usage/issues",
-  "author": "Adam Hollett <mail@adamhollett.com> (http://adamhollett.com)",
+  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
   "dependencies": {
     "array-differ": "^1.0.0",
     "nlcst-search": "^1.0.0",
@@ -55,5 +55,8 @@
     "test-api": "node test.js",
     "test-coverage": "istanbul cover test.js",
     "test": "npm run build && npm run lint && npm run test-coverage"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
