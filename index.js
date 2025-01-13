@@ -73,7 +73,9 @@ function attacher(processor, options) {
         end: match[match.length - 1].position.end,
       });
 
-      message.ruleId = phrase;
+      message.actual = value.replace("“", "").replace("”", "");
+      message.expected = [replace.replace("“", "").replace("”", "")];
+      message.ruleId = phrase.replace(" ", "-").toLowerCase();
       message.source = "retext-usage";
     });
   }
