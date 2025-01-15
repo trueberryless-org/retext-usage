@@ -1,3 +1,5 @@
+This repository is a modified version of the [original from retextjs](https://github.com/adamhollett/retext-usage). It fixes the issue `quotation().join() not a function`, `file.warn() not a function` by calling `file.message()`, add `actual` and `expected`, standardize `ruleId` to match common unified pattern. A reference PR can be found [here](https://github.com/adamhollett/retext-usage/pull/5). Please don't submit issues and PRs and all that stuff here! Not maintained!
+
 # retext-usage
 
 Check phrases for incorrect English usage with [**retext**][retext].
